@@ -14,7 +14,7 @@ const routes: Routes = [
   },
   {
     path: 'filter-operators',
-    loadChildren: './business/create-operators/filter-operators.module#FilterOperatorsModule',
+    loadChildren: './business/filter-operators/filter-operators.module#FilterOperatorsModule',
   },
 ];
 

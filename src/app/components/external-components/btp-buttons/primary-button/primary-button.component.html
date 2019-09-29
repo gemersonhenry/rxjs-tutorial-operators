@@ -1,0 +1,8 @@
+<button
+  type="button"
+  class="btn btn-primary"
+  [ngClass]="buttonSettings"
+  (click)="buttonClick($event)"
+  [disabled]="disabled">
+  {{ text }}
+</button>

@@ -6,6 +6,9 @@ import { CreateObservablesComponent } from './create-observables/create-observab
 import { BtpCardsModule } from 'src/app/components/external-components/btp-cards/btp-cards.module';
 import { ServicesModule } from 'src/app/services/services.module';
 import { CreateOperatorsComponent } from './create-operators.component';
+import { IntervalTimeComponent } from './interval-time/interval-time.component';
+import { FromOfComponent } from './from-of/from-of.component';
+import { FromeventComponent } from './fromevent/fromevent.component';
 
 const MODULES = [
   BtpCardsModule,
@@ -16,6 +19,9 @@ const MODULES = [
   declarations: [
     CreateOperatorsComponent,
     CreateObservablesComponent,
+    IntervalTimeComponent,
+    FromOfComponent,
+    FromeventComponent,
   ],
   imports: [
     CommonModule,

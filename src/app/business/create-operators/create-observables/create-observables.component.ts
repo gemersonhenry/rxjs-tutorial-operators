@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { IProduct } from '../dummy-data/arrays';
 
 @Component({
   selector: 'bz-create-observables',

@@ -18,6 +18,7 @@ export class FromeventComponent implements OnInit {
     const el02 = this.document.querySelector('.element-02');
     console.log(el01, el02);
 
+    // https://www.w3schools.com/jsref/obj_mouseevent.asp
     const click$ = fromEvent(el01, 'click');
     click$.subscribe((el) => {
       console.log(el);

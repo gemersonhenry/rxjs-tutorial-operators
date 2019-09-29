@@ -3,15 +3,15 @@ import { HttpClient, HttpResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable()
-export class JphCommentsClientService {
+export class JphPhotosClientService {
 
-  private readonly JSONPLACEHOLDER_ENDPOINT = 'https://jsonplaceholder.typicode.com/comments';
+  private readonly JSONPLACEHOLDER_ENDPOINT = 'https://jsonplaceholder.typicode.com/photos';
 
   constructor(
     private httpClient: HttpClient,
   ) { }
 
-  public getComments<T>(): Observable<HttpResponse<T>> {
+  public getPhotos<T>(): Observable<HttpResponse<T>> {
     const { JSONPLACEHOLDER_ENDPOINT } = this;
     return this.httpClient
       .get<T>(

@@ -16,6 +16,10 @@ const routes: Routes = [
     path: 'filter',
     loadChildren: './business/filter-operators/filter-operators.module#FilterOperatorsModule',
   },
+  {
+    path: 'subscribe',
+    loadChildren: './business/unsubscribing/unsubscribing.module#UnsubscribingModule',
+  }
 ];
 
 @NgModule({

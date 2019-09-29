@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { JphCommentsImplementService } from 'src/app/services/jsonplaceholder/jph-comments-implement.service';
+import { Observable } from 'rxjs';
+import { IProduct } from '../dummy-data/arrays';
 
 @Component({
   selector: 'bz-create-observables',
@@ -8,15 +9,13 @@ import { JphCommentsImplementService } from 'src/app/services/jsonplaceholder/jp
 })
 export class CreateObservablesComponent implements OnInit {
 
-  constructor(
-    private jphCommentsImplement: JphCommentsImplementService,
-  ) { }
+  constructor() { }
 
   ngOnInit() {
-    this.jphCommentsImplement.getComments()
-      .subscribe((response) => {
-        console.log(response);
-      });
+  }
+
+  public getProduct$() {
+
   }
 
 }

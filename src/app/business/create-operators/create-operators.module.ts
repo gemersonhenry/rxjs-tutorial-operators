@@ -5,6 +5,7 @@ import { CreateOperatorsRoutingModule } from './create-operators-routing.module'
 import { CreateObservablesComponent } from './create-observables/create-observables.component';
 import { BtpCardsModule } from 'src/app/components/external-components/btp-cards/btp-cards.module';
 import { ServicesModule } from 'src/app/services/services.module';
+import { CreateOperatorsComponent } from './create-operators.component';
 
 const MODULES = [
   BtpCardsModule,
@@ -12,7 +13,10 @@ const MODULES = [
 ];
 
 @NgModule({
-  declarations: [CreateObservablesComponent],
+  declarations: [
+    CreateOperatorsComponent,
+    CreateObservablesComponent,
+  ],
   imports: [
     CommonModule,
     CreateOperatorsRoutingModule,

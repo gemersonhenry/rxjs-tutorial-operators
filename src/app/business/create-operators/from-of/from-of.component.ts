@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { from, of } from 'rxjs';
-import { PRODUCTS, IProduct } from '../dummy-data/arrays';
-import { delay, zip } from 'rxjs/operators';
+import { PRODUCTS } from '../dummy-data/arrays';
 
 @Component({
   selector: 'bz-from-of',

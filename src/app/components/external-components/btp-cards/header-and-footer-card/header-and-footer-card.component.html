@@ -1,23 +1,25 @@
 <div class="card">
   <h5 class="card-header">
-    CARD HEADER
+    {{ headerText }}
   </h5>
   <div class="card-body">
     <h5 class="card-title">
-      CARD TITLE
+      {{ titleText }}
     </h5>
     <p class="card-text">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad magni sunt, explicabo reiciendis quia maxime doloremque sit est quaerat hic. Eius voluptas fuga ab illo earum hic enim voluptatem libero.
+      {{ commentText }}
     </p>
   </div>
   <div class="card-footer">
     <div class="card-primary-button">
       <bz-primary-button
+        (onclick)="primaryButtonEvent()"
         [text]="'PRIMARY BUTTON'">
       </bz-primary-button>
     </div>
     <div class="card-secondary-button">
       <bz-secondary-button
+        (onclick)="secondaryButtonEvent()"
         [text]="'SECONDARY BUTTON'">
       </bz-secondary-button>
     </div>

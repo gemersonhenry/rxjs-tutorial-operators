@@ -7,27 +7,27 @@ export interface IProduct {
 export const PRODUCTS: IProduct[] = [
   {
     id: 1,
-    name: 'paracetamol',
+    name: 'JUGUITO PARA EL DOLOR DE CABEZA :V',
     quantity: 10,
   },
   {
     id: 2,
-    name: 'paracetamol',
+    name: 'DESAWEBINA FORTE',
     quantity: 10,
   },
   {
     id: 3,
-    name: 'paracetamol',
+    name: 'LO MAS ACIDO DEL MUNDO',
     quantity: 10,
   },
   {
     id: 4,
-    name: 'paracetamol',
+    name: 'OLVIDATUEXDETROZOL',
     quantity: 10,
   },
   {
     id: 5,
-    name: 'paracetamol',
+    name: 'ANGULAR COMPRIMIDO',
     quantity: 10,
   },
 ];

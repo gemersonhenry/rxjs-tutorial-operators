@@ -17,11 +17,11 @@ export class SecondaryButtonComponent implements OnInit {
   @Output() onclickEvent = new EventEmitter<MouseEvent>();
 
   constructor() {
-    console.log('constructor => PrimaryButtonComponent');
+    console.log('constructor => SecondaryButtonComponent');
   }
 
   ngOnInit() {
-    console.log('ngOnInit => PrimaryButtonComponent');
+    console.log('ngOnInit => SecondaryButtonComponent');
   }
 
   public buttonClick($event: MouseEvent) {

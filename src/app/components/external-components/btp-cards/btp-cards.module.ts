@@ -18,6 +18,9 @@ const COMPONENTS = [
   imports: [
     CommonModule,
     ...MODULES,
+  ],
+  exports: [
+    ...COMPONENTS,
   ]
 })
 export class BtpCardsModule { }

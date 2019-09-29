@@ -5,15 +5,15 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'create-operators',
+    redirectTo: 'create',
     pathMatch: 'full',
   },
   {
-    path: 'create-operators',
+    path: 'create',
     loadChildren: './business/create-operators/create-operators.module#CreateOperatorsModule',
   },
   {
-    path: 'filter-operators',
+    path: 'filter',
     loadChildren: './business/filter-operators/filter-operators.module#FilterOperatorsModule',
   },
 ];
